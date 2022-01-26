@@ -11,12 +11,11 @@ namespace Homework2
         private string Fname; // Переменная Имени
         private string Lname; // Переменная Фамилии
         private string Aname; // переменная Отчества
-        private string Age; // Переменная Возраста
+        private int Age; // Переменная Возраста
         private string Email; // Переменная Роста
-        private string History; // Переменная Баллов по Истории
-        private string Math; // Переменная Баллов по Математике
-        private string Rus; // Переменная Баллов по Русскому
-        private string ScoreF; // Переменная среднего балла по трём предметам
+        private float History; // Переменная Баллов по Истории
+        private float Math; // Переменная Баллов по Математике
+        private float Rus; // Переменная Баллов по Русскому        
 
         public Person()
         {
@@ -38,7 +37,7 @@ namespace Homework2
             Aname = aname;
         }
 
-        public void AddAge(string age) // Данные Возраста
+        public void AddAge(int age) // Данные Возраста
         {
             Age = age;
         } 
@@ -48,19 +47,19 @@ namespace Homework2
             Email = height;
         }
 
-        public void AddHistory(string history) // Данные Баллов по Истории
+        public void AddHistory(float history) // Данные Баллов по Истории
         {
             
             History = history;
         }
 
-        public void AddMath(string math) // Данные Баллов по Математике
+        public void AddMath(float math) // Данные Баллов по Математике
         {
             
             Math = math;
         }
 
-        public void AddRus(string rus) // Данные Баллов по Русскому
+        public void AddRus(float rus) // Данные Баллов по Русскому
         {           
             Rus = rus;           
 
