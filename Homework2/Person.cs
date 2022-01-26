@@ -12,7 +12,7 @@ namespace Homework2
         private string Lname; // Переменная Фамилии
         private string Aname; // переменная Отчества
         private int Age; // Переменная Возраста
-        private string Email; // Переменная Роста
+        private string Email; // Переменная Email
         private float History; // Переменная Баллов по Истории
         private float Math; // Переменная Баллов по Математике
         private float Rus; // Переменная Баллов по Русскому        
@@ -42,7 +42,7 @@ namespace Homework2
             Age = age;
         } 
 
-        public void AddHeight(string height) // Данные Роста
+        public void AddHeight(string height) // Данные Email
         {
             Email = height;
         }

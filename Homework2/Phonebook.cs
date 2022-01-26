@@ -71,7 +71,7 @@ namespace Homework2
                         Console.SetCursorPosition(40, 7);
                         person.AddAge(int.Parse(Console.ReadLine())); // Добавление данных
                         Console.SetCursorPosition(45, 8);
-                        Console.WriteLine("Введите Email:"); // Ввод роста
+                        Console.WriteLine("Введите Email:"); // Ввод Email
                         Console.SetCursorPosition(40, 9);
                         person.AddHeight(Console.ReadLine()); // Добавление данных
                         Console.SetCursorPosition(38, 10);                        
@@ -85,7 +85,7 @@ namespace Homework2
                         Console.SetCursorPosition(36, 14);
                         Console.WriteLine("Введите баллы по русскому языку: "); // Ввод данных пользователя                        
                         Console.SetCursorPosition(40, 15);
-                        person.AddRus(float.Parse(Console.ReadLine()); // Считывание данных  
+                        person.AddRus(float.Parse(Console.ReadLine())); // Считывание данных  
                         Console.SetCursorPosition(35, 16);
                         Console.WriteLine($"Готово! Ученик занесён в базу. ");
                         Console.SetCursorPosition(32, 17);
